@@ -23,6 +23,6 @@ setreadonly(mt, true)
 
 game.StarterGui:SetCore("SendNotification", {
 Title = "Silent Aim"; -- title of notification
-Text = "Activated"; -- bottom text
+Text = "Stopped"; -- bottom text
 Duration = 5; -- how long notification is on screen
 })
