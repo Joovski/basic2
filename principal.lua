@@ -3,7 +3,7 @@ local mt = getrawmetatable(game)
 local backupindex = mt.__index
 local ValiantAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Joovski/krush/main/Untitled-1.lua"))()
 ValiantAimHacks["TeamCheck"] = false
-ValiantAimHacks["FOV"] = 500
+ValiantAimHacks["FOV"] = 1000
 ValiantAimHacks["ShowFOV"] = false
 ValiantAimHacks["SilentAimEnabled"] = true
 setreadonly(mt, false)
