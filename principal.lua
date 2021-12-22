@@ -1,7 +1,7 @@
 -- // Index Version // --
 local mt = getrawmetatable(game)
 local backupindex = mt.__index
-local ValiantAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Joovski/krush/main/Untitled-1.lua?token=AMXVZZYDRBYHEM7RG77URVTBYNP4E"))()
+local ValiantAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Joovski/krush/main/Untitled-1.lua"))()
 ValiantAimHacks["TeamCheck"] = false
 ValiantAimHacks["FOV"] = 500
 ValiantAimHacks["ShowFOV"] = false
