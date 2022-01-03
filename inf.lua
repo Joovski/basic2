@@ -3,18 +3,18 @@ game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").MaxAmmo.Value =
 game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").ClipSize.Value = math.huge
 end)
 
-local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Joovski/notification/main/notif.lua"))()
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Yo"; -- the title (ofc)
+Text = "Subscribe To HemLish For More Free and OP Feature"; -- what the text says (ofc)
+Icon = "rbxassetid://8327950081"; -- the image if u want. 
+Duration = 10; -- how long the notification should in secounds
+})
 
-Notification.Notify("Paypal", "If you want to support me : PayPal.me/matenintraore", "rbxassetid://8327950081", {
-Duration = 10,       
-Main = {
-    Rounding = true,
-}
-});
-
-Notification.Notify("Yo", "Subscribe To HemLish For More Free and OP Feature", "rbxassetid://8327950081", {
-Duration = 10,       
-Main = {
-    Rounding = true,
-}
-});
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "PayPal"; -- the title (ofc)
+Text = "If you want to support me : PayPal.me/matenintraore"; -- what the text says (ofc)
+Icon = "rbxassetid://8327950081"; -- the image if u want. 
+Duration = 10; -- how long the notification should in secounds
+})
