@@ -5,7 +5,7 @@ end)
 
 wait(1.2)
 game.StarterGui:SetCore("SendNotification", {
-Title = "Yo"; -- the title (ofc)
+Title = "Information"; -- the title (ofc)
 Text = "Subscribe To HemLish For More Free and OP Feature"; -- what the text says (ofc)
 Icon = "rbxassetid://8327950081"; -- the image if u want. 
 Duration = 10; -- how long the notification should in secounds
